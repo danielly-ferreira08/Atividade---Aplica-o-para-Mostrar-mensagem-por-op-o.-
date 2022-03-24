@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title> Orientações contra COVID-19</title>
+	<style type="text/css">
+		.pai{
+			height: 60vh;
+			background-color: #00b894;
+		}
+
+		.botao{
+			height: 50px;
+			width: 500px;
+			border-radius: 8px;
+			background-color: #00b894;
+			border: 4px solid white;
+			font-size: 23px;
+        }
+        .botao:hover{
+        	background-color: white;
+        	color: #00b894;
+        }
+        .resultado, .resultado2, .resultado3, .resultado4{
+        	display: none;
+        	height: 50px;
+        	width: 500px;
+        	font-size: 23px;
+        	background-color: yellow;
+        }
+
+</style>
+	
+
+</head>
+<body>
+	<div class="pai">
+		<br>
+		<br>
+		<center><h1> Orientações contra COVID-19 </h1></center>
+		<br>
+		<center><button class="botao" id="botao1" onclick="aparecerTexto()"> Voce é idoso?</button></center>
+		<br>
+		<center><button class="botao" id="botao2" onclick="aparecerTexto2()"> Sofre de problemas respiratórios?</button></center>
+		<br>
+		<center><button class="botao" id="botao3" onclick="aparecerTexto3()"> É Diabético? </button></center>
+		<br>
+		<center><button class="botao" id="botao4" onclick="aparecerTexto4()"> É Saudável? </button></center>
+	    </div>
+
+	    <center><div class="resultado"> vá apreder a tricotar</div>
+	    <center><div class="resultado2"> sim</div>
+	    <center><div class="resultado3">não </div>
+	    <center><div class="resultado4"> sim</div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
